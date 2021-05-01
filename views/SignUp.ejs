@@ -1,0 +1,106 @@
+<div class="image-nav"></div>
+<div class="auth">
+    <h1> تسجيل </h1>
+    <hr>
+    <form method="POST" action="/signup">
+        <div class="form-row">
+            <table>
+                <div>
+                    <tr>
+                        <td>
+                            <label>الاسم</label>
+                        </td>
+                        <td>
+                            <input name="name" type="text" class="form-control" placeholder="أدخل الاسم" required>
+                        </td>
+                    </tr>
+                </div>
+                <tr>
+                    <td><br /></td>
+                </tr>
+                <div>
+
+                    <tr>
+                        <td>
+                            <label>الإيميل</label>
+                        </td>
+                        <td>
+                            <input name="emailAddress" type="email" class="form-control" placeholder="أدخل الإيميل"
+                                required>
+                        </td>
+                    </tr>
+                </div>
+                <tr>
+                    <td><br /></td>
+                </tr>
+                <div>
+                    <tr>
+                        <td>
+                            <label> الرقم السري</label>
+                        </td>
+                        <td>
+                            <input name="password" type="password" class="form-control" placeholder="أدخل الرقم السري" required>
+                        </td>
+                    </tr>
+                </div>
+                <tr>
+                    <td><br /></td>
+                </tr>
+                <div>
+                    <tr>
+                        <td>
+                            <label for="psw-repeat">تأكيد الرقم السري</label>
+                        </td>
+                        <td>
+                            <input type="password" class="form-control" placeholder="تأكيد الرقم السري"
+                                name="psw-repeat" required>
+                        </td>
+                    </tr>
+                </div>
+                <tr>
+                    <td><br /></td>
+                </tr>
+                <div>
+
+                    <tr>
+                        <td>
+                            <label>الجنس</label>
+                        </td>
+
+                        <td>
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">ذكر</label>
+
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">أنثى</label>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>نوع الحساب</label>
+                        </td>
+
+
+                        <td>
+                            <input type="radio" name="type" value="teacher">
+                            <label for="teacher">معلمـ/ـة</label>
+
+                            <input type="radio" name="type" value="student">
+                            <label for="student">طالبـ/ـة</label>
+                        </td>
+            </table>
+        </div>
+        <div class="submission-btn-up">
+            <tr>
+                <td><br /></td>
+            </tr>
+            <button class="sign-btn" type="submit">تسجيل</button><br />
+            <a style="text-decoration: none;color:#424342; " href="/signin" class="card-link link"> يوجد لديك
+                حساب؟</a><br /><br />
+
+        </div>
+
+    </form>
+    <hr>
+</div>

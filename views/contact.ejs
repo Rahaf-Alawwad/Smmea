@@ -1,0 +1,30 @@
+<style>
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-content:space-around;
+        height:90%;
+        top:-10%;
+    }
+</style>
+<div style=" position:absolute; top:15%; left:25%; width:50%;height: 75%;"class="auth">
+    <h1>اتصل بنا </h1>
+    <form>
+        <div class="container">
+            <form action="action_page.php">
+                <label for="fname">الاسم الاول </label>
+                <input type="text" id="fname" name="firstname" placeholder="ضع الاسم هنا ..">
+
+                <label for="lname">الاسم الاخير </label>
+                <input type="text" id="lname" name="lastname" placeholder="ضع الاسم هنا ..">
+
+                <label for="subject">الموضوع </label>
+                <textarea id="subject" name="subject" placeholder="اكتب شيئا ما .." style="height:200px"></textarea>
+
+                <input type="submit" value="ارسل">
+
+            </form>
+        </div>
+    </form>
+    <hr>
+</div>
